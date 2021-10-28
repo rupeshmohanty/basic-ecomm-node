@@ -1,0 +1,27 @@
+{
+  "name": "basic-ecomm-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rupeshmohanty/basic-ecomm-node.git"
+  },
+  "author": "Rupesh Chandra Mohanty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rupeshmohanty/basic-ecomm-node/issues"
+  },
+  "homepage": "https://github.com/rupeshmohanty/basic-ecomm-node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
