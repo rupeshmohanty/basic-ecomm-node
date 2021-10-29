@@ -1,3 +1,3 @@
-const uri = "mongodb+srv://bidishanayak:Pass123@cluster0.napdc.gcp.mongodb.net/ecomm?retryWrites=true&w=majority";
+const uri = "mongodb://bidishanayak:pass12345@cluster0-shard-00-00.napdc.gcp.mongodb.net:27017,cluster0-shard-00-01.napdc.gcp.mongodb.net:27017,cluster0-shard-00-02.napdc.gcp.mongodb.net:27017/ecomm?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority";
 
 module.exports = uri;
