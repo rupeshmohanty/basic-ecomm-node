@@ -1,6 +1,6 @@
-# 
+# basic-ecommm-node
 
-Something!
+Backend apis for a basic product/category model!
 ---
 ## Requirements
 
