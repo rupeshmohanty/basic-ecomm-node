@@ -17,7 +17,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
 // Mongoose connection!
-mongoose.connect(uri,{ useNewUrlParser: true, useUnifiedTechnology: true },() => {
+mongoose.connect(uri,() => {
     console.log('Connected to the db!');
 })
 

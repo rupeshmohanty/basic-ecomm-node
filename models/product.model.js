@@ -31,10 +31,6 @@ const productSchema = new Schema({
 	categoryId: {
 		type: Number,
 		required: true
-	},
-	categoryName: {
-		type: String,
-		required: true
 	}
 })
 
