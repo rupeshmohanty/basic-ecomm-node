@@ -6,23 +6,20 @@ const app = express();
 const PORT = process.env.port || 5000;
 
 // routers!
-const productRouter = require('./routes/product.js');
+const productRouter = require('./routes/user.js');
 
-// get the database uri!
-const uri = require('./database');
+// Mongoose connection!
+mongoose.connect("mongodb+srv://rupeshmohanty:pass123@cluster0.napdc.gcp.mongodb.net/Login?retryWrites=true&w=majority",() => {
+    console.log('Connected to the db!');
+})
 
 // middleware!
 app.use(cors())
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
-// Mongoose connection!
-mongoose.connect(uri,() => {
-    console.log('Connected to the db!');
-})
-
 // routes!
-app.use('/product',productRouter);
+app.use('/api',productRouter);
 
 // Listening at port 5000!
 app.listen(PORT,() => {

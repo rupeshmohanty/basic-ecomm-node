@@ -1,6 +1,6 @@
-# 
+# basic-ecommm-node
 
-Something!
+Backend apis for a basic product/category model!
 ---
 ## Requirements
 
@@ -38,8 +38,8 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Install
 
-    $ git clone https://github.com/bidishanayak/Node-task-set-1
-    $ cd Node-task-set-1
+    $ git clone https://github.com/rupeshmohanty/basic-ecomm-node
+    $ cd basic-ecomm-node
     $ npm install
 
 ## Running the project
